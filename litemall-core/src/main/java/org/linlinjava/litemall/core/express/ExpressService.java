@@ -137,5 +137,15 @@ public class ExpressService {
         return null;
     }
 
+    
+    public static void main (String args[]) {
+    	ExpressService expressService = new ExpressService();
+    	
+    	expressService.getExpressInfo("", "");
+    	
+    	
+    	
+    }
+    
 
 }
