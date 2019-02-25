@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * 检测优惠券过期情况
  */
-@Component
+//@Component
 public class CouponJob {
     private final Log logger = LogFactory.getLog(CouponJob.class);
 
@@ -28,7 +28,7 @@ public class CouponJob {
     /**
      * 每隔一个小时检查
      */
-    @Scheduled(fixedDelay = 60 * 60 * 1000)
+   //@Scheduled(fixedDelay = 60 * 60 * 1000)
     public void checkCouponExpired() {
         logger.info("系统开启任务检查优惠券是否已经过期");
 
