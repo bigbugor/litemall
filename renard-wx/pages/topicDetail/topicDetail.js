@@ -12,8 +12,8 @@ Page({
 
   onShareAppMessage: function() {
     return {
-      title: 'Renard 的甜品屋',
-      desc: '唯爱与美食不可辜负',
+      title: '京东好货到家',
+      desc: '京东好货到家自营',
       path: '/pages/topicDetail/topicDetail?id=' + this.data.id
     }
   },

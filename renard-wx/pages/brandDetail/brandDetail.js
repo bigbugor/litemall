@@ -20,6 +20,7 @@ Page({
     this.getBrand();
   },
   getBrand: function() {
+    debugger;
     let that = this;
     util.request(api.BrandDetail, {
       id: that.data.id

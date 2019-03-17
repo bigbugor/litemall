@@ -1,11 +1,9 @@
 <view class="container">
   <!-- 首页顶部通知消息 -->
-  <van-notice-bar scrollable="true" text="目前上架的商品均可直接下单购买，欢迎大家购买支持我的工作！" />
+  <van-notice-bar scrollable="true" text="目前上架的商品均可直接下单购买，京东好货到家！" />
 
-  <view class="HotName">今日推荐
-    <text></text>
-  </view>
-  <view class="HotMark">唯爱与美食不可辜负</view>
+  
+  <view class="HotMark">京东好货到家</view>
 
   <view class="HotSwiper" style="margin-top:{{windowHeight/45}}px">
     <swiper circular="true" autoplay="true" interval="6000" duration="500" previous-margin="{{windowWidth/3.8}}rpx" next-margin="{{windowWidth/3.8}}rpx">
@@ -37,7 +35,7 @@
       </block>
     </swiper>
   </view>
-
+  <!--
   <view class="a-section a-groupon" wx:if="{{groupons.length > 0}}">
     <view class="h">
       <view class="title">
@@ -71,6 +69,7 @@
       </view>
     </view>
   </view>
+  -->
 
   <view class="a-section a-new" wx:if="{{newGoods.length > 0}}">
     <view class="h">
@@ -83,6 +82,7 @@
     <goodList goods="{{newGoods}}"></goodList>
   </view>
 
+<!--
   <view class="a-section a-brand">
     <view class="h">
       <view class="title">
@@ -104,16 +104,18 @@
       </view>
     </view>
   </view>
-
+-->
   <view class="good-grid" wx:for="{{floorGoods}}" wx:key="id">
     <navigator url="/pages/category/category?id={{item.id}}" class="more-a">
       <view class="h" wx:if="{{item.goodsList.length > 0}}">
-        <text>{{item.name}}</text>
+        <text class="txt">{{item.name}}</text>
+         
+           
       </view>
     </navigator>
     <goodList goods="{{item.goodsList}}"></goodList>
   </view>
-
+<!--
   <view class="a-section a-topic" wx:if="topics.length > 0">
     <view class="h">
       <view class="title">
@@ -136,5 +138,5 @@
       </scroll-view>
     </view>
   </view>
-
+-->
 </view>

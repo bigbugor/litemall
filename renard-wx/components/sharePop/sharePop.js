@@ -41,7 +41,17 @@ Component({
 
   // 保存分享图
   _saveShare: function() {
-   wx.showLoading({
+    // 如果storage中设置了cartId，则是立即购买，否则是购物车购买
+    try {
+      wx.setStorageSync('cartId', "123");
+      wx.setStorageSync('grouponRulesId', "123");
+      wx.setStorageSync('grouponLinkId', "123");
+      wx.navigateTo({
+        url: '../../pages/poster/poster'
+      })
+    } catch (e) { }
+
+  /* wx.showLoading({
     title: '加载中',
    });
 
@@ -80,6 +90,9 @@ Component({
      console.log('fail')
     }
    })
+    */
+
+
   },
 
  }

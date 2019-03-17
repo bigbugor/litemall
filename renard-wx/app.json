@@ -26,10 +26,11 @@
     "pages/goods/goods",
     "pages/groupon/myGroupon/myGroupon",
     "pages/groupon/grouponDetail/grouponDetail",
-    "pages/groupon/grouponList/grouponList"
+    "pages/groupon/grouponList/grouponList",
+    "pages/poster/poster"
   ],
   "window": {
-    "navigationBarTitleText": "Renard",
+    "navigationBarTitleText": "京东好货到家",
     "enablePullDownRefresh": true,
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",

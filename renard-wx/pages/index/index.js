@@ -18,8 +18,8 @@ Page({
   },
   onShareAppMessage: function() {
     return {
-      title: 'Renard',
-      desc: '唯爱与美食不可辜负',
+      title: 'jdhhdj',
+      desc: '京东好货到家',
       path: '/pages/index/index'
     }
   },

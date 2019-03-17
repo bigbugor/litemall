@@ -31,6 +31,7 @@ Page({
     });
     util.request(api.CatalogAll).then(function(res) {
       that.setData({
+        
         allList: res.data.allList,
         categoryList: res.data.categoryList,
         currentCategory: res.data.currentCategory,
@@ -43,7 +44,6 @@ Page({
   },
   getCurrentCategory: function(item) {
     let that = this;
-
     for (var key in that.data.allList) {
       if (key == item.id) {
         that.setData({

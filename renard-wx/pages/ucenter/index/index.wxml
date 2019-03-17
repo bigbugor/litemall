@@ -29,6 +29,7 @@
       </view>
     </view>
   </view>
+  <!--
   <view class="my-item-list">
     <view class="my-item">
       <navigator url="/pages/select-address/index" hover-class="none">快递费说明</navigator>
@@ -38,5 +39,5 @@
       <navigator url="/pages/select-address/index" hover-class="none">团购说明</navigator>
       <image src="../../../images/right-icon.png" />
     </view>
-  </view>
+  </view>-->
 </view>
