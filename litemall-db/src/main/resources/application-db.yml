@@ -10,7 +10,7 @@ spring:
       url:  jdbc:mysql://45.92.161.125:3306/sysDb?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true&verifyServerCertificate=false&useSSL=false
       driver-class-name:  com.mysql.jdbc.Driver
       username:  root
-      password:  123456
+      password:  root
       initial-size:  10
       max-active:  50
       min-idle:  10
