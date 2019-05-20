@@ -1,8 +1,8 @@
 litemall:
   # 开发者应该设置成自己的wx相关信息
   wx:
-    app-id: wxc573eacb2231f3fc
-    app-secret: 4649920502933c5b2d90b7c4e5c604b4
+    app-id:xxxxxxxxxxxx
+    app-secret: xxxxxxxxxxxxxxxxxx
     mch-id: 111111
     mch-key: xxxxxx
     notify-url: http://www.example.com/wx/order/pay-notify
@@ -54,8 +54,8 @@ litemall:
   # 快鸟物流查询配置
   express:
     enable: true
-    appId: "1444425"
-    appKey: "2db0998a-be33-46fa-810d-4db7bbd810ef"
+    appId: "xxxxx"
+    appKey: "xxxxxx"
     vendors:
     - code: "ZTO"
       name: "中通快递"
@@ -111,6 +111,6 @@ litemall:
     # 七牛云对象存储配置信息
     qiniu:
       endpoint: http://pnexhj9pl.bkt.clouddn.com
-      accessKey: VDVthw7GENH1H5_8A8axzFQjf635-QBJyRwyUTEc
-      secretKey: v45kIua_YLqx85F54rzkgpbRDTCbDxxApGXZX0XU
-      bucketName: bigbug
+      accessKey:xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+      secretKey: xxxxxxxxxxxxxxxxxxxxxxx
+      bucketName: xxxxxxx
